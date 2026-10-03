@@ -1,0 +1,79 @@
+/* Общие стили*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+html{
+    box-sizing: border-box;
+}
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+body{
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+.container{
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 250px;
+}
+  
+/* Раздул Our story*/
+.story {
+}
+.story_left {
+    max-width: 398px;
+    margin-right:50px ;
+}
+.story_title_3 {
+    font-weight: bold;
+    font-size: 20px;
+}
+.accent-color {
+    color: #00A4E5;
+}
+.story_text {
+}
+.story_right {
+    display: flex;
+    align-items: flex-end;
+}
+.story_item {
+    padding: 15px;
+    font-size: 24px;
+    color:#fff ;
+    font-weight: 800;
+    text-transform: uppercase;
+    width: 140px;
+    height: 240px;
+    margin-right: 20px;
+}
+.story_item:nth-child(1){
+    background-image: url(/img/Bitmap.png);
+}
+.story_item:nth-child(2){
+    background-image: url(/img/wemanage.png);
+}
+.story_item:nth-child(3){
+    background-image: url(/img/plan.png);
+    margin-right: 0;
+}
+.story_title_2{
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 50px 0;
+}
+.story_inner{
+    display: flex;
+}
+.story_title_2::after{
+    content: '';
+    width: 50px;
+    height: 2px;
+    background-color: #00A4E5;
+    display: block;
+    margin: 10px auto 0;
+}
